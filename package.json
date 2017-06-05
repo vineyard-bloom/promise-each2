@@ -1,6 +1,6 @@
 {
   "name": "promise-each2",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sequential Promise.all()",
   "main": "source/index.js",
   "types": "source/index.d.ts",
@@ -9,8 +9,7 @@
   },
   "repository": "git@github.com:vineyard-bloom/promise-each2.git",
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/es6-promise": "0.0.32"
   }
