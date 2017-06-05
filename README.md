@@ -1,4 +1,4 @@
-# Vineyard Bitcoin
+# Promise Each 2
 
-Bitcoin transaction monitor.  Uses bitcoind for monitoring.  Can generate new Bitcoin addresses using either bitcoind or bitcore.
+Sequential Promise.all()
 
