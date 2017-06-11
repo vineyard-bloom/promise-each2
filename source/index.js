@@ -18,7 +18,7 @@ function each(items, action) {
         var result = items[0]();
         var _loop_2 = function (i) {
             result = result
-                .then(function () { return items[i](); });
+                .then(function (value) { return items[i](value); });
         };
         for (var i = 1; i < items.length; ++i) {
             _loop_2(i);

@@ -15,7 +15,7 @@ export function each(items:any[], action?) {
     let result = items[0]()
     for (let i = 1; i < items.length; ++i) {
       result = result
-        .then(() => items[i]())
+        .then(value => items[i](value))
     }
     return result
   }
