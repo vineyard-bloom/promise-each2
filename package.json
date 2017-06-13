@@ -1,6 +1,6 @@
 {
   "name": "promise-each2",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Sequential Promise.all()",
   "main": "source/index.js",
   "types": "source/index.d.ts",
